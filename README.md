@@ -45,6 +45,12 @@ A sleek, responsive, and dark-themed quiz application built with **Next.js 14**,
 
 ---
 
+![homee](https://github.com/user-attachments/assets/f3dd4010-099d-46d6-8355-b5712d59cb91)
+![idd](https://github.com/user-attachments/assets/8c983a1c-24af-4d1d-bd98-cfff87da6afc)
+![iddd](https://github.com/user-attachments/assets/d6d2b391-1330-4529-9f4b-ca53bcf98b47)
+![categ](https://github.com/user-attachments/assets/e7f2a1b3-c9bf-4133-844a-a1445b96e257)
+
+
 ## 🧭 Application Walkthrough
 
 ### 🏠 Home Page (`/`)
