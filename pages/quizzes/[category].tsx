@@ -19,6 +19,7 @@ export default function QuizCategoryPage({ quizzes, category }) {
         <meta name="description" content={`Quizzes for ${category}`} />
       </Head>
 
+      {/* Navbar */}
       <motion.nav
         initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -53,6 +54,11 @@ export default function QuizCategoryPage({ quizzes, category }) {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="mt-16 text-center text-gray-500 text-sm opacity-60 py-6">
+        Built with 💙 using Next.js & Tailwind | MicroQuiz © 2025
+      </footer>
     </>
   );
 }
