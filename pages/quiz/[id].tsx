@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 export async function getServerSideProps({ params }) {
@@ -36,7 +37,21 @@ export default function QuizPage({ quiz }) {
         <meta name="description" content={`Take the ${quiz.title} quiz.`} />
       </Head>
 
-      <div className="min-h-screen bg-gray-950 text-gray-200 flex items-center justify-center p-6">
+      {/* Animated Navbar */}
+      <motion.nav
+        initial={{ y: -30, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6 }}
+        className="fixed top-0 w-full z-50 bg-gray-900/80 backdrop-blur border-b border-gray-800"
+      >
+        <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center text-white">
+          <Link href="/" className="text-2xl font-bold text-blue-400">
+            MicroQuiz
+          </Link>
+        </div>
+      </motion.nav>
+
+      <div className="pt-24 min-h-screen bg-gray-950 text-gray-200 flex items-center justify-center p-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
