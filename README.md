@@ -8,20 +8,20 @@ A sleek, responsive, and dark-themed quiz application built with **Next.js 14**,
   
 ## 📦 Getting Started Locally
 
-1. <b>Clone the repo</b>b>
+1. <b>Clone the repo</b>
    git clone https://github.com/your-username/micro-quiz-platform.git
    cd micro-quiz-platform
-2. **Install dependencies**
+2. <b>Install dependencies</b>
     npm install
   
-3. **Setup environment variables**
+3. <b>Setup environment variables</b>
     Create a .env.local file and add:
     NEXT_PUBLIC_BASE_URL=http://localhost:3000
   
-4. **Start the development server**
+4. <b>Start the development server</b>
     npm run dev
   
-5. **View in your browser**
+5. <b>View in your browser</b>
     http://localhost:3000
   
 </pre>
