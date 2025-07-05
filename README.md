@@ -79,6 +79,13 @@ A sleek, responsive, and dark-themed quiz application built with **Next.js 14**,
 
 ---
 
+## 🧩 Challenges Faced
+
+- **Rendering Folder Structure in README**: Initially, the folder structure was not rendering properly on GitHub due to incorrect Markdown formatting (missing code blocks). This was quickly resolved by using triple backticks (` ``` `) and proper indentation for clean display.
+
+> No major blockers or wasted efforts encountered during the project.
+
+
 ## 📂 Folder Structure
 <pre> ```micro-quiz-platform/
 ├── public/
