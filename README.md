@@ -4,10 +4,27 @@ A sleek, responsive, and dark-themed quiz application built with **Next.js 14**,
 
 ---
 
-## 🚀 Live Demo
+<pre>
+  
+## 📦 Getting Started Locally
 
-👉 [Click here to view the live app](https://your-deployed-url.vercel.app)  
-*(Replace with your actual deployment URL)*
+1. **Clone the repo**
+   git clone https://github.com/your-username/micro-quiz-platform.git
+   cd micro-quiz-platform
+2. **Install dependencies**
+    npm install
+  
+3. **Setup environment variables**
+    Create a .env.local file and add:
+    NEXT_PUBLIC_BASE_URL=http://localhost:3000
+  
+4. **Start the development server**
+    npm run dev
+  
+5. **View in your browser**
+    http://localhost:3000
+  
+</pre>
 
 ---
 
