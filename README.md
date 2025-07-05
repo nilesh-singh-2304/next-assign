@@ -8,7 +8,7 @@ A sleek, responsive, and dark-themed quiz application built with **Next.js 14**,
   
 ## 📦 Getting Started Locally
 
-1. **Clone the repo**
+1. <b>Clone the repo</b>b>
    git clone https://github.com/your-username/micro-quiz-platform.git
    cd micro-quiz-platform
 2. **Install dependencies**
