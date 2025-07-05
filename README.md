@@ -63,7 +63,6 @@ A sleek, responsive, and dark-themed quiz application built with **Next.js 14**,
 ---
 
 ## 📂 Folder Structure
-
 micro-quiz-platform/
 ├── public/
 │ └── images/ # Category icons and other static assets
@@ -81,11 +80,11 @@ micro-quiz-platform/
 │ └── quiz/
 │ └── [id].js # API to get quiz questions by ID
 │
-├── styles/ # (Optional) Global styles if needed
-│ └── globals.css
+├── styles/
+│ └── globals.css # (Optional) Global styles if needed
 │
-├── components/ # (Optional) Shared UI components like Navbar
-│ └── Navbar.js
+├── components/
+│ └── Navbar.js # (Optional) Shared UI components like Navbar
 │
 ├── .env.local # Environment variables (e.g., BASE_URL)
 ├── package.json
@@ -93,6 +92,3 @@ micro-quiz-platform/
 ├── postcss.config.js
 ├── README.md
 └── next.config.js
-
-Copy
-Edit
