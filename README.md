@@ -63,4 +63,32 @@ A sleek, responsive, and dark-themed quiz application built with **Next.js 14**,
 ---
 
 ## 📂 Folder Structure
-<pre> ``` micro-quiz-platform/ ├── public/ │ └── images/ # Category icons and other static assets │ ├── pages/ │ ├── index.js # Home page (SSG) with quiz categories │ ├── quiz/ │ │ └── [id].js # Dynamic route for individual quiz (SSR) │ ├── quizzes/ │ │ └── [category].js # Dynamic route for quiz categories (SSR) │ └── api/ │ ├── categories.js # API to get all quiz categories │ ├── quizzes/ │ │ └── [category].js # API to get quizzes for a category │ └── quiz/ │ └── [id].js # API to get quiz questions by ID │ ├── styles/ │ └── globals.css # (Optional) Global styles if needed │ ├── components/ │ └── Navbar.js # (Optional) Shared UI components like Navbar │ ├── .env.local # Environment variables (e.g., BASE_URL) ├── package.json ├── tailwind.config.js ├── postcss.config.js ├── README.md └── next.config.js ``` </pre>
+<pre> ```micro-quiz-platform/
+├── public/
+│ └── images/ # Category icons and other static assets
+│
+├── pages/
+│ ├── index.js # Home page (SSG) with quiz categories
+│ ├── quiz/
+│ │ └── [id].js # Dynamic route for individual quiz (SSR)
+│ ├── quizzes/
+│ │ └── [category].js # Dynamic route for quiz categories (SSR)
+│ └── api/
+│ ├── categories.js # API to get all quiz categories
+│ ├── quizzes/
+│ │ └── [category].js # API to get quizzes for a category
+│ └── quiz/
+│ └── [id].js # API to get quiz questions by ID
+│
+├── styles/
+│ └── globals.css # (Optional) Global styles if needed
+│
+├── components/
+│ └── Navbar.js # (Optional) Shared UI components like Navbar
+│
+├── .env.local # Environment variables (e.g., BASE_URL)
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── README.md
+└── next.config.js ``` </pre>
