@@ -18,6 +18,12 @@ A dark-themed, visually stunning, and responsive quiz application built with **N
 | Client-Side State Management | ✅ With `useState` on quiz logic |
 | SEO Meta Tags | ✅ Dynamically set with `next/head` |
 
+![homee](https://github.com/user-attachments/assets/c9d5a2ac-620f-4b32-bfe3-e72ec18f1789)
+![idd](https://github.com/user-attachments/assets/c89d72cc-50be-4449-882b-85d99b5b8a2f)
+![iddd](https://github.com/user-attachments/assets/00f6b4f8-40c2-487f-9cae-def80cb0fe12)
+![categ](https://github.com/user-attachments/assets/e73eae82-9a77-4eec-9d8d-527e663cbfcb)
+
+
 ---
 
 ## 🧭 Walkthrough Guide
