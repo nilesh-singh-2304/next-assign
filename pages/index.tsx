@@ -20,7 +20,7 @@ export default function Home({ categories }) {
           <Link key={cat.slug} href={`/quizzes/${cat.slug}`}>
             <div className="bg-white shadow-md rounded p-4 text-center hover:bg-blue-100 transition cursor-pointer">
               <Image src={cat.icon} alt={cat.name} width={80} height={80} />
-              <h2 className="mt-2 text-lg font-semibold">{cat.name}</h2>
+              <h2 className="mt-2 text-lg text-black font-semibold">{cat.name}</h2>
             </div>
           </Link>
         ))}
